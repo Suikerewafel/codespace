@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    // ask user for height
+    // ask user for height and
 
 int n = get_int("Hoogte: ");
 
@@ -13,6 +13,6 @@ int n = get_int("Hoogte: ");
 
     for(int i = 0; i < n; i++)
     {
-        printf("#\n");
+        printf("#");
     }
 }
