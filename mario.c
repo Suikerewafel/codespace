@@ -14,7 +14,10 @@ while (n < 1 || n > 8 );
     // pyramide maken
 for (int i = 0; i < n; i++)
 {
-    printf("#"* n);
+    for(int j = 0; j < (i + 1); j++)
+    {
+        printf("#");
+    }
+    printf("\n");
 }
-printf("\n");
 }
