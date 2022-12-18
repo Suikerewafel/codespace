@@ -7,6 +7,9 @@ int main(void)
 
 int n = get_int("Hoogte: ");
 
+    // reprompt when not between 1-8
+    while(n =)
+
     //print de hoogte
     for(int i = 0; i < n; i++)
     {
