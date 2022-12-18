@@ -5,13 +5,13 @@ int main(void)
 {
     // ask user for height
 
-int n = get_int("breedte: ");
+int n = get_int("Hoogte: ");
 
 
 
     // print the asked #
 
-    for(i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         printf("#\n");
     }
