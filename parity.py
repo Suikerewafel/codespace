@@ -1,5 +1,5 @@
 try:
-    n = int(input("n: "))
+    
 except:
     print("Dit is geen geheel getal en kan dus niet even zijn")
     exit()
