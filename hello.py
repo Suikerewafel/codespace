@@ -1,1 +1,1 @@
-insert 
+print("hello, world")
