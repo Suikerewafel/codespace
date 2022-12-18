@@ -9,4 +9,5 @@ do
 {
     n = get_int("geef een hoogte in tussen 1 en 8: ");
 }
-while ()
+while (n < 1);
+}
