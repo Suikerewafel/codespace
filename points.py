@@ -1,4 +1,5 @@
-points = int(("hoeveel punten heb je verloren?"))
+
+points = int(input("hoeveel punten heb je verloren?"))
 mypoints = int(5)
 
 if points > mypoints:
