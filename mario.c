@@ -12,6 +12,7 @@ int main(void)
 
     for( int i = 0; i < h; i++)
     {
+        for (int j= h - i; j = h; j++)
         {
             printf("#");
         }
