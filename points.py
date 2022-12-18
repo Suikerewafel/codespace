@@ -1,5 +1,9 @@
+try:
+    points = int(input("hoeveel punten heb je verloren? "))
+except:
+    print("ongeldig")
+    exit()
 
-points = int(input("hoeveel punten heb je verloren?"))
 mypoints = int(5)
 
 if points > mypoints:
