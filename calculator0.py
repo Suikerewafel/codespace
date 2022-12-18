@@ -1,11 +1,11 @@
 try:
     x = int(input("x: "))
-except:
+except ValueError:
     print("ongeldig")
     exit()
 try:
     y = int(input("y: "))
-except:
+except ValueError:
     print("ongeldig")
     exit()
 print(f"het resultaat is {x + y}")
