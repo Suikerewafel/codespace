@@ -1,7 +1,7 @@
 try:
     while True:
         n = int(input("Geef het getal in dat u wilt bekijken: "))
-        if n <= 0:
+        if n > 0:
             break
 except:
     print("Dit is geen geheel getal en kan dus niet even zijn")
