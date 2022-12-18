@@ -12,20 +12,17 @@ int main(void)
 
     for( int i = 0; i < h; i++)
     {
-        for (int j = h - i; j > 0; j--)
+        for(int k = h - i; k > 0; k--)
         {
             printf(" ");
         }
-        for (int k = 0; k > i; k++)
+        for (int j= h - i; j <= h; j++)
         {
             printf("#");
         }
         printf("  ");
 
-        for (int k =0; k> i; k++)
-        {
-            printf("#");
-        }
+        for (int )
         printf("\n");
     }
 }
