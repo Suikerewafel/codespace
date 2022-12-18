@@ -5,10 +5,14 @@ int main(void)
 {
     // ask user for size
 
-int n = get_int("Hoogte: ");
+
 
     // reprompt when not between 1-8
-    while(n =)
+   do
+   {
+    int n = get_int("Hoogte: ")
+   }
+   while (n => 8)
 
     //print de hoogte
     for(int i = 0; i < n; i++)
