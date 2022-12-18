@@ -17,9 +17,9 @@ while (n < 1 || n > 8 );
     // pyramide maken
 void pyramide (int n)
 {
-for (int i = 0; i < n; i++)
-{
-    for ( int k = n - i - 2; k <= 0; k--)
+    for (int i = 0; i < n; i++)
+    {
+        for ( int k = n - i - 2; k <= 0; k--)
     {
         printf(" ");
     }
@@ -28,5 +28,5 @@ for (int i = 0; i < n; i++)
         printf("#");
     }
     printf("\n");
-}
+    }
 }
