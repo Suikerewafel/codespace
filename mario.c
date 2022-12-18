@@ -3,16 +3,18 @@
 
 int main(void)
 {
-    // ask user for height and
+    // ask user for size
 
 int n = get_int("Hoogte: ");
 
-
-
-    // print the asked #
-
+    //print de hoogte
     for(int i = 0; i < n; i++)
     {
+    //print de breedte
+        for(int j = 0; j < n; j++)
+        {
         printf("#");
+        }
+    printf("\n");
     }
 }
