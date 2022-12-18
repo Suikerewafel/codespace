@@ -1,5 +1,7 @@
 try:
-    
+    while True:
+        n = int(input("Geef het getal in dat u wilt bekijken: "))
+        
 except:
     print("Dit is geen geheel getal en kan dus niet even zijn")
     exit()
