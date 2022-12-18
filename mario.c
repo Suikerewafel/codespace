@@ -3,25 +3,10 @@
 
 int main(void)
 {
-    // ask user for size
-
-
-
-    // reprompt when not between 1-8
-   do
-   {
-    int n = get_int("Hoogte: ")
-   }
-   while (n => 8)
-
-    //print de hoogte
-    for(int i = 0; i < n; i++)
-    {
-    //print de breedte
-        for(int j = 0; j < n; j++)
-        {
-        printf("#");
-        }
-    printf("\n");
-    }
+    // ask user for size between 1 and 8
+int n;
+do
+{
+    n = get_int("geef een hoogte in tussen 1 en 8: ");
 }
+while ()
