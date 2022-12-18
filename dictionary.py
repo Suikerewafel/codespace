@@ -1,7 +1,7 @@
 words = set()
 
 def check(word):
-    if word in words:
+    if word.lower() in words:   
         return true
     else:
         return false
