@@ -15,5 +15,3 @@ int main(void)
 
     if(cents >= 25)
 }
-
-
