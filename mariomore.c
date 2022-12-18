@@ -22,7 +22,10 @@ int main(void)
         }
         printf("  ");
 
-        for (int )
+        for (int j = h - i; j <=h; j++)
+        {
+            printf("#");
+        }
         printf("\n");
     }
 }
