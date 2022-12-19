@@ -1,6 +1,8 @@
 def main():
-for i in ragne(3):
-    meow()
+    for i in range(3):
+        meow()
 
     def meow():
         print("meow")
+
+main()
