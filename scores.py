@@ -1,4 +1,5 @@
-scores = [55, 55, 77]
+scores = []
 
-average = sum(scores)  / len(scores)
-print(f"Uw gemiddelde is:{average}")
+while True:
+    
+aantal = int(input("vul het aantal scores in dat u wilt ingeven: "))
