@@ -3,7 +3,7 @@ def main():
     for i in range(height):
         for j in range(height):
             print("#", end = "")
-    print()
+        print()
 
 def get_height():
     while True:
