@@ -1,3 +1,4 @@
+def main():
 for i in ragne(3):
     meow()
 
