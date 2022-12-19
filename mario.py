@@ -9,4 +9,5 @@ def get height()
             break
         else:
             print("vul een geheel getal in tussen 1 en 8")
-        
+
+main ()
