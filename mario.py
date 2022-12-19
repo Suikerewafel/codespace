@@ -11,8 +11,8 @@ def get_height():
                 break
             else:
                 print("vul een geheel getal in tussen 1 en 8")
-        else:
-            print("vul een geheel getal in tussen 1 en 9")  
+        except:
+            print("vul een geheel getal in tussen 1 en 9")
     return n
 
 main ()
