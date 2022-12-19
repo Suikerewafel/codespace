@@ -14,4 +14,6 @@ for i in range(aantal):
     score = int(input("Score: "))
     scores.append(score)
 
-print(f"{scores}")
+average = sum(scores) / aantal
+
+print(f"Het gemiddelde is: {average}")
