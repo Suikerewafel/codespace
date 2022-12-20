@@ -9,3 +9,6 @@ while True:
         print("Dit is geen getal")
 print(hoogte)
 
+for i in range(hoogte):
+    for j in range(hoogte):
+        print("#", end = "")
