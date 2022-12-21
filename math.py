@@ -1,4 +1,4 @@
-from math import pi
-x = pi(y)
+import math
+x = math.pi(y)
 y = float(5)
 print(x)
