@@ -9,4 +9,9 @@ while True:
     except:
         print("Dit is geen getal")
 
+# Print pyramide
+for rij in range(hoogte):
+    for j in range(rij+1):
+        print("#", end = "")
+    print("\n", end = "")   
 
