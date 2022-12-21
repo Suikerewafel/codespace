@@ -7,3 +7,6 @@ while True:
             print("Voer een getal in tussen 1 en 8")
     except:
         print("Dit is geen getal")
+
+for rij in range(hoogte):
+    for spatie in range(hoogte-rij-1, 0, -1)
