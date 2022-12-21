@@ -11,10 +11,10 @@ while True:
 
 # Print pyramide.
 for rij in range(hoogte):
-    for links_spatie in range(hoogte-(hoogte-1),0,-1):
+    for links_spatie in range(rij-1,0,-1):
         print("", end = "")
     for links_blokje in range(hoogte-links_spatie):
-        print("#")
+        print("#", end = "")
     print("\n")
 
 
