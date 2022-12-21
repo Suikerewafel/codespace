@@ -1,2 +1,2 @@
 card_number = int(input("Geef uw kaartnummer in: "))
-if card_number 
+print(card_number[-1:])
