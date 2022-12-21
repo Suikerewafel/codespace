@@ -1,3 +1,4 @@
+# Ask user input.
 while True:
     try:
         hoogte = int(input("Geef de hoogte in: "))
@@ -7,8 +8,9 @@ while True:
             print("Geef een getal in tussen 0 en 8")
     except:
         print("Dit is geen getal")
-print(hoogte)
 
+# Print pyramide.
 for i in range(hoogte):
     for j in range(hoogte):
-        print("#", end = "")
+        print("#")
+        print("")
