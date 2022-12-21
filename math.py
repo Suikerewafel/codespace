@@ -1,2 +1,3 @@
 card_number = int(input("Geef uw kaartnummer in: "))
-print(card_number[-1:])
+last number = card_number % 10
+
