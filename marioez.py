@@ -15,6 +15,8 @@ for rij in range(hoogte):
         print(" ", end = "")
     for j in range(rij+1):
         print("#", end = "")
+    for h in range(hoogte):
+        print("    ", end = "")
     for k in range(rij+1):
         print("#", end = "")
     print("\n", end = "")
