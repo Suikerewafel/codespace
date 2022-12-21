@@ -10,7 +10,7 @@ while True:
         print("Dit is geen getal")
 
 # Print pyramide.
-for i in range(hoogte):
+for row in range(hoogte):
     for j in range(hoogte):
         print("#", end = "")
     print("\n")
