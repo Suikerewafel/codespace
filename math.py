@@ -1,4 +1,2 @@
-import math
-x = math.pi(y)
-y = float(5)
-print(x)
+card_number = int(input("Geef uw kaartnummer in: "))
+if card_number 
