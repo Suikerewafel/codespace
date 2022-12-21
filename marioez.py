@@ -11,7 +11,8 @@ while True:
 
 # Print pyramide.
 for i in range(hoogte):
-    for j in range(hoogte + 1):
-        print("#")
+    for j in range(hoogte - 1):
+        print("#", end = "")
+    print("\n", end = "")
 
 
