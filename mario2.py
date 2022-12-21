@@ -9,4 +9,8 @@ while True:
         print("Dit is geen getal")
 
 for rij in range(hoogte):
-    for spatie in range(hoogte-rij-1, 0, -1)
+    for spatie in range(hoogte-rij-1, 0, -1):
+        print(" ", end = "")
+    for hekje in range(rij+1):
+        print("#", end = "")
+    print("\n", end = "")
